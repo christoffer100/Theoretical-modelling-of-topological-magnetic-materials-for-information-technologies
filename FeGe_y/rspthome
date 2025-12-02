@@ -1,0 +1,3 @@
+ifndef RSPTHOME
+RSPTHOME = /tmp/hellsvik/rspt/20250228/cpeGNU-24.11/rspt-20250228
+endif

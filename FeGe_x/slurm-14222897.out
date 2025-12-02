@@ -1,0 +1,11 @@
+Unloading the cpe module is insufficient to restore the system defaults.
+Please run 'source
+/opt/cray/pe/cpe/24.11/restore_lmod_system_defaults.[csh|sh]'. 
+ 
+Sourcing the above script is not necessary if swapping the cpe module with a
+different version. 
+
+The following have been reloaded with a version change:
+  1) gcc-native/12.3 => gcc-native/13.2
+
+Job finished at Thu 20 Nov 2025 11:14:05 PM CET on nid001328

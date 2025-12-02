@@ -1,0 +1,25 @@
+simid     _UppASD_
+
+ncell     10 10 10
+BC        P         P         P
+cell     1.0   0.0   0.0
+         0.0   1.0   0.0
+         0.0   0.0   1.0
+
+posfiletype  D
+posfile   posfile
+momfile   momfile
+exchange  jfile
+maptype   1
+
+alat      4.700000277119045e-10
+do_prnstruct 1
+Initmag   3
+
+mode      H
+temp     1.0e-6
+mcNstep  10000
+
+do_avrg   Y
+plotenergy   1
+do_cumu Y

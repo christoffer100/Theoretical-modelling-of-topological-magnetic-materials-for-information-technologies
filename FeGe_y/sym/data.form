@@ -1,0 +1,138 @@
+#include "data.prnt_array"
+#include "data.header"
+ LABEL
+#include "data.length_scale_form"
+#include "data.brillouin_zone_integration"
+ (i6)
+     1 placeholder for obsolete panel index
+#include "data.panel_data"
+#include "data.bravais_lattice"
+#include "data.fourier_grid"
+ (// 2i8)
+ TYPE 1: species: 32a
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+ -.158600000000000 -.158600000000000 -.158600000000000     l
+#include "element_32"
+ (// 2i8)
+ TYPE 2: species: 32a
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+ -.341400000000000  .158600000000000  .341400000000000     l
+#include "element_32"
+ (// 2i8)
+ TYPE 3: species: 32a
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .341400000000000 -.341400000000000  .158600000000000     l
+#include "element_32"
+ (// 2i8)
+ TYPE 4: species: 32a
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .158600000000000  .341400000000000 -.341400000000000     l
+#include "element_32"
+ (// 2i8)
+ TYPE 5: species: 26up
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .135200000000000  .135200000000000  .135200000000000     l
+#include "element_26"
+ (// 2i8)
+ TYPE 6: species: 26up
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .364800000000000 -.135200000000000 -.364800000000000     l
+#include "element_26"
+ (// 2i8)
+ TYPE 7: species: 26up
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+ -.364800000000000  .364800000000000 -.135200000000000     l
+#include "element_26"
+ (// 2i8)
+ TYPE 8: species: 26up
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1      81  (n=   1   4   9  16  25  36  49  64  81)
+ (/ (24i3))
+ density exponents
+  1
+  1
+  1
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+ -.135200000000000 -.364800000000000  .364800000000000     l
+#include "element_26"

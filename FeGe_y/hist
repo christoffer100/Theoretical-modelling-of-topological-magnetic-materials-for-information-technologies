@@ -1,0 +1,53 @@
+ History
+    Start runs srun -n 124 rspt 1.00e-09 100 on nid001333, Thu Nov 20 20:36:18 2025
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   26 7.20E-10 ( 4.37E-07)     4.33538925        -26,933.413 351 544
+@      700.632304 -26933.4133515440
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.777 174 26     0.000     0.200     0.100   8.8817127
+               dvr            R(dvi)            I(dvi)
+         0.0008816         0.0000131        -0.0000970
+   user time:  0 hr  5 min 34 sec
+ system time:  0 hr  0 min  2 sec
+    end runs, Thu Nov 20 23:10:00 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid001139, Fri Nov 21 09:13:16 2025
+   user time:  0 hr 11 min 58 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 09:25:19 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid001139, Fri Nov 21 09:25:21 2025
+   user time:  0 hr  9 min 11 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 09:34:37 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid001139, Fri Nov 21 09:34:38 2025
+   user time:  0 hr  9 min  8 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 09:43:52 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid001139, Fri Nov 21 09:43:53 2025
+   user time:  0 hr  8 min 59 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 09:52:58 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002722, Fri Nov 21 10:39:22 2025
+   user time:  0 hr  9 min 13 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 10:48:40 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002722, Fri Nov 21 10:48:42 2025
+   user time:  0 hr  9 min 10 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 10:57:57 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002722, Fri Nov 21 10:57:58 2025
+   user time:  0 hr  9 min 13 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 11:07:16 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002722, Fri Nov 21 11:07:17 2025
+   user time:  0 hr  8 min 49 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 11:16:11 2025
+

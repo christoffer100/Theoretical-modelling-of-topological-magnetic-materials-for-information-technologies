@@ -1,0 +1,33 @@
+ History
+    Start runs srun -n 128 rspt 1.00e-09 100 on nid001479, Tue Nov 18 23:41:56 2025
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   24 6.68E-10 ( 2.88E-07)     4.33039478        -26,933.413 362 487
+@      700.632304 -26933.4133624871
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.777 055 49     0.000     0.200     0.100   8.8817127
+               dvr            R(dvi)            I(dvi)
+         0.0011440        -0.0000063         0.0001179
+   user time:  0 hr  5 min 13 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Wed Nov 19 01:55:21 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002608, Fri Nov 21 12:09:48 2025
+   user time:  0 hr  9 min 28 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 12:19:22 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002608, Fri Nov 21 12:19:23 2025
+   user time:  0 hr  9 min  8 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 12:28:37 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002608, Fri Nov 21 12:28:38 2025
+   user time:  0 hr  8 min 59 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 12:37:42 2025
+
+    Start runs srun -n 60 rspt 1.00e-08 100 on nid002608, Fri Nov 21 12:37:43 2025
+   user time:  0 hr  8 min 59 sec
+ system time:  0 hr  0 min  3 sec
+    end runs, Fri Nov 21 12:46:47 2025
+
