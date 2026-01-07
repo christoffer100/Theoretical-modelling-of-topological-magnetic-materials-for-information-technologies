@@ -1,0 +1,20 @@
+simid: PdFeIr11
+date: 2025-12-20
+git_revision: 
+siminfo:
+    temperature:    0.0000000         
+    timestep:       0.10000000E-14    
+    damping:        1.0000000         
+    nstep:          500000  
+    mode:           LLG
+    alat:           0.27235360E-09    
+measurables:
+    averages:       Yes
+    trajectories:   No 
+    moments:        Yes
+    sqw:            No 
+    ams:            No 
+    nc-ams:         No 
+    totenergy:      Yes
+    cumulants:      Yes
+    coord:          Yes
