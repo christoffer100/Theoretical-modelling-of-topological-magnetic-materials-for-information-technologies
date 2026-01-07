@@ -1,0 +1,133 @@
+ --------------------------------------------------------------
+             __  __          ___   _______    ____  ___        
+            / / / /__  ___  / _ | / __/ _ \  / __/ / _ \       
+           / /_/ / _ \/ _ \/ __ |_\ \/ // / / _ \_/ // /       
+           \____/ .__/ .__/_/ |_/___/____/  \___(_)___/        
+               /_/  /_/                                        
+ --------------------------------------------------------------
+                https://github.com/UppASD/UppASD               
+ --------------------------------------------------------------
+              Division of Materials Theory                     
+              Department of Physics and Astronomy              
+              Uppsala University                               
+              Sweden                                           
+ ---------------------Production-version-----------------------
+ Git revision: 
+ --------------------------------------------------------------
+ RNG: Mersenne-Twister (mtprng)
+ --------------------------------------------------------------
+ Execution Date: 22/12/2025  Execution Time: 22:14:09:698
+ --------------------------------------------------------------
+ Using OpenMP with 16  threads out of 16 possible.
+ --------------------------------------------------------------
+ Read input file using new format
+ done.
+  Set up types of atoms done
+  Set up chemical information of alloy done
+  Set up global coordinates done
+  Set up damping
+  done
+  Set up temperature
+  done
+ Write input data done.
+ Set up Hamiltonian
+  Set up neighbour map for exchange nntype           1          32
+ done
+  Mount Heisenberg Hamiltonian done
+  Set up anisotropies done
+  Calculate mean-field estimate of Tc:   621.6 K.
+  Max eigenvalue:    80.353 meV
+  Set up neighbour map for Dzyaloshinskii-Moriya exchange done
+  Mount Dzyaloshinskii-Moriya Hamiltonian done
+ Initialize metatype 
+ Initialize magnetic moments 
+  Start random init spins  done
+ Enter initial phase:  S 
+  Performing initial phase:  1    Temp.   1100.       nsteps      50000       dt     0.1000E-14   lambda      1.000         0.000    
+  IP  1   10% done. Mbar:  0.028126
+  IP  1   20% done. Mbar:  0.021064
+  IP  1   30% done. Mbar:  0.032486
+  IP  1   40% done. Mbar:  0.039766
+  IP  1   50% done. Mbar:  0.041716
+  IP  1   60% done. Mbar:  0.037959
+  IP  1   70% done. Mbar:  0.053006
+  IP  1   80% done. Mbar:  0.036515
+  IP  1   90% done. Mbar:  0.032847
+  IP  1  100% done. Mbar:  0.047458
+  Performing initial phase:  2    Temp.   1000.       nsteps      50000       dt     0.1000E-14   lambda      1.000         0.000    
+  IP  2   10% done. Mbar:  0.051146
+  IP  2   20% done. Mbar:  0.066935
+  IP  2   30% done. Mbar:  0.039091
+  IP  2   40% done. Mbar:  0.048847
+  IP  2   50% done. Mbar:  0.058790
+  IP  2   60% done. Mbar:  0.029973
+  IP  2   70% done. Mbar:  0.032315
+  IP  2   80% done. Mbar:  0.043732
+  IP  2   90% done. Mbar:  0.032915
+  IP  2  100% done. Mbar:  0.055460
+ Enter measurement phase:
+ ------------------------------------------
+            Simulation data                
+ ------------------------------------------
+  Number of atoms   10000
+  Number of ensembles   1
+  Gradient: N
+  Temperature:  900.00 K
+  Number of simulation steps:    500000
+  Time step:  1000.    as
+  Simulation time:  500.0    ps
+  Damping parameter:  1.000    
+  Sample averages: Y
+  Sample moments: Y
+  Spin correlation: N
+ ------------------------------------------
+         Progress of simulation:           
+  MP   5% done. Mbar:  0.041346. Ebar:   -1.403371. U: 0.44935. 
+  MP  10% done. Mbar:  0.049629. Ebar:   -1.426057. U: 0.43475. 
+  MP  15% done. Mbar:  0.071985. Ebar:   -1.364161. U: 0.44799. 
+  MP  20% done. Mbar:  0.031521. Ebar:   -1.417127. U: 0.44012. 
+  MP  25% done. Mbar:  0.037852. Ebar:   -1.324444. U: 0.43988. 
+  MP  30% done. Mbar:  0.050728. Ebar:   -1.413761. U: 0.44769. 
+  MP  35% done. Mbar:  0.041800. Ebar:   -1.376514. U: 0.44703. 
+  MP  40% done. Mbar:  0.036016. Ebar:   -1.456501. U: 0.44438. 
+  MP  45% done. Mbar:  0.006502. Ebar:   -1.382674. U: 0.45252. 
+  MP  50% done. Mbar:  0.022813. Ebar:   -1.389097. U: 0.45114. 
+  MP  55% done. Mbar:  0.027586. Ebar:   -1.451200. U: 0.44853. 
+  MP  60% done. Mbar:  0.036824. Ebar:   -1.422949. U: 0.44969. 
+  MP  65% done. Mbar:  0.068986. Ebar:   -1.416051. U: 0.44597. 
+  MP  70% done. Mbar:  0.049502. Ebar:   -1.393443. U: 0.44730. 
+  MP  75% done. Mbar:  0.030338. Ebar:   -1.352261. U: 0.44485. 
+  MP  80% done. Mbar:  0.035810. Ebar:   -1.400730. U: 0.44443. 
+  MP  85% done. Mbar:  0.036618. Ebar:   -1.369119. U: 0.44218. 
+  MP  90% done. Mbar:  0.082929. Ebar:   -1.427604. U: 0.44333. 
+  MP  95% done. Mbar:  0.026746. Ebar:   -1.382879. U: 0.44409. 
+  MP 100% done. Mbar:  0.044156. Ebar:   -1.400705. U: 0.44397. 
+ Simulation finished
+ ----------------TIME CONSUMPTION REPORT----------------------
+ CATEGORY                 TIME(sec)           PERCENT
+   Startup                 4.19E-02               0.0
+   Initial                 7.12E+00               0.6
+   Measurement             7.31E+01               6.1
+   Hamiltonian             3.59E+02              30.2
+   Evolution               2.32E+02              19.5
+   RNG                     4.46E+02              37.5
+   Energy                  9.26E+00               0.8
+   Moments                 2.76E+01               2.3
+   PrintRestart            8.35E-03               0.0
+   SpinCorr                2.41E+00               0.2
+ -------------------------------------------------------------
+ Total wall time           1.19E+03      Sampled percent  97.3
+ --------------MAIN PROGRAM PHASES TIME REPORT----------------
+ CATEGORY                   EXECUTION TIME    TOTAL CPU TIME
+  Time for initialization :           0.09              0.67
+  Time for initial phase  :         171.28           2736.41
+  Time for meas. phase    :        1060.12          16290.78
+  Time for cleanup        :           0.12              0.09
+ -------------------------------------------------------------
+  Time total              :        1231.60          19027.96
+  Time for one meas. iter :           0.00              0.03
+ -------------------MEMORY CONSUMPTION REPORT-----------------------
+ 126 allocations and 125 deallocations, remaining memory(B):24
+ Memory occupation peak: 48988 kB
+ For the array: "red_atom_list" in routine "magninit"
+ -----------------END MEMORY CONSUMPTION REPORT---------------------
