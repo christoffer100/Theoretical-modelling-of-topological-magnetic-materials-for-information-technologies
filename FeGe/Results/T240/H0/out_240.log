@@ -1,0 +1,112 @@
+ --------------------------------------------------------------
+             __  __          ___   _______    ____  ___        
+            / / / /__  ___  / _ | / __/ _ \  / __/ / _ \       
+           / /_/ / _ \/ _ \/ __ |_\ \/ // / / _ \_/ // /       
+           \____/ .__/ .__/_/ |_/___/____/  \___(_)___/        
+               /_/  /_/                                        
+ --------------------------------------------------------------
+                https://github.com/UppASD/UppASD               
+ --------------------------------------------------------------
+              Division of Materials Theory                     
+              Department of Physics and Astronomy              
+              Uppsala University                               
+              Sweden                                           
+ ---------------------Production-version-----------------------
+ Git revision: 
+ --------------------------------------------------------------
+ RNG: Mersenne-Twister (mtprng)
+ --------------------------------------------------------------
+ Execution Date: 04/12/2025  Execution Time: 15:41:05:698
+ --------------------------------------------------------------
+ Using OpenMP with 16  threads out of 16 possible.
+ --------------------------------------------------------------
+ Read input file using new format
+ done.
+  Set up types of atoms done
+  Set up chemical information of alloy done
+  Set up global coordinates done
+  Set up damping
+  done
+  Set up temperature
+  done
+ Set up q-vectors
+ Allocate spin-correlation data
+ Write input data done.
+ Set up Hamiltonian
+  Set up neighbour map for exchange nntype           8         470
+ done
+  Mount Heisenberg Hamiltonian done
+  Calculate mean-field estimate of Tc:   304.1 K.
+  Max eigenvalue:    39.311 meV
+  Min eigenvalue:    -2.057 meV
+  Set up neighbour map for Dzyaloshinskii-Moriya exchange done
+  Mount Dzyaloshinskii-Moriya Hamiltonian done
+ Initialize metatype 
+ Initialize magnetic moments 
+  Moments from inpsd.dat  done
+ Mounting A-matrix for AMS calculation done.
+  Tc-MFA from AMS:      80.0
+  Tc-RPA from AMS:     120.4
+ Adiabatic Magnon Spectra Calculations done.
+ Calculate the ferromagnetic stiffness  Tc-MFA from stiffness :     329.5  K
+ done
+ Enter initial phase:  M 
+Performing MC initial phase:  1    Temp:   240.0       MCS/s:      10000    Mode:         M 
+  IP MC    10% done. Mbar:  0.074942
+  IP MC    20% done. Mbar:  0.052669
+  IP MC    30% done. Mbar:  0.045666
+  IP MC    40% done. Mbar:  0.061847
+  IP MC    50% done. Mbar:  0.080818
+  IP MC    60% done. Mbar:  0.055420
+  IP MC    70% done. Mbar:  0.054948
+  IP MC    80% done. Mbar:  0.044852  U(L):  0.506905  X:  0.018057
+  IP MC    90% done. Mbar:  0.042307  U(L):  0.493991  X:  0.017884
+  IP MC   100% done. Mbar:  0.011522  U(L):  0.493028  X:  0.017604
+ Enter measurement phase:
+  MP MC   5% done. Mbar:  0.026960. Ebar:   -0.342969. U: 0.56037.
+  MP MC  10% done. Mbar:  0.043030. Ebar:   -0.354673. U: 0.50925.
+  MP MC  15% done. Mbar:  0.077933. Ebar:   -0.357535. U: 0.49325.
+  MP MC  20% done. Mbar:  0.053166. Ebar:   -0.348202. U: 0.45743.
+  MP MC  25% done. Mbar:  0.042487. Ebar:   -0.355088. U: 0.47875.
+  MP MC  30% done. Mbar:  0.050811. Ebar:   -0.343022. U: 0.47946.
+  MP MC  35% done. Mbar:  0.034370. Ebar:   -0.356123. U: 0.48742.
+  MP MC  40% done. Mbar:  0.052622. Ebar:   -0.358890. U: 0.47544.
+  MP MC  45% done. Mbar:  0.034445. Ebar:   -0.341609. U: 0.47277.
+  MP MC  50% done. Mbar:  0.109311. Ebar:   -0.348992. U: 0.47617.
+  MP MC  55% done. Mbar:  0.074108. Ebar:   -0.358821. U: 0.48425.
+  MP MC  60% done. Mbar:  0.077865. Ebar:   -0.364151. U: 0.48603.
+  MP MC  65% done. Mbar:  0.068351. Ebar:   -0.355123. U: 0.48490.
+  MP MC  70% done. Mbar:  0.046275. Ebar:   -0.345665. U: 0.48360.
+  MP MC  75% done. Mbar:  0.040267. Ebar:   -0.354201. U: 0.48923.
+  MP MC  80% done. Mbar:  0.035392. Ebar:   -0.345383. U: 0.49314.
+  MP MC  85% done. Mbar:  0.101937. Ebar:   -0.357594. U: 0.48927.
+  MP MC  90% done. Mbar:  0.052706. Ebar:   -0.355740. U: 0.48908.
+  MP MC  95% done. Mbar:  0.029657. Ebar:   -0.348831. U: 0.48396.
+  MP MC 100% done. Mbar:  0.011642. Ebar:   -0.354836. U: 0.48602.
+  Correlation lengths:      3.94263     18.47731       6.3436    
+ Simulation finished
+ ----------------TIME CONSUMPTION REPORT----------------------
+ CATEGORY                 TIME(sec)           PERCENT
+   Startup                 3.48E+00               0.1
+   Initial                 2.74E+02               6.0
+   Measurement             6.53E+00               0.1
+   MonteCarlo              2.76E+03              60.5
+   Energy                  3.77E+01               0.8
+   PrintRestart            4.49E-02               0.0
+   SpinCorr                1.48E+03              32.4
+ -------------------------------------------------------------
+ Total wall time           4.56E+03      Sampled percent  99.9
+ --------------MAIN PROGRAM PHASES TIME REPORT----------------
+ CATEGORY                   EXECUTION TIME    TOTAL CPU TIME
+  Time for initialization :           5.44             55.82
+  Time for initial phase  :         277.84           4382.10
+  Time for meas. phase    :        4384.44          68587.26
+  Time for cleanup        :           0.11              0.11
+ -------------------------------------------------------------
+  Time total              :        4667.83          73025.29
+  Time for one meas. iter :           0.04              0.69
+ -------------------MEMORY CONSUMPTION REPORT-----------------------
+ 165 allocations and 160 deallocations, remaining memory(B):448
+ Memory occupation peak: 1416935 kB
+ For the array: "dm_vect" in routine "allocate_dmhamiltoniandata"
+ -----------------END MEMORY CONSUMPTION REPORT---------------------

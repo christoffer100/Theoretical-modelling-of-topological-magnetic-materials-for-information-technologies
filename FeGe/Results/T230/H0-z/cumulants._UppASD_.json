@@ -1,0 +1,10 @@
+{
+    "temperature"     :     230.00000000 ,
+    "magnetization"   :       0.15284636 ,
+    "binder_cumulant" :       0.64624422 ,
+    "energy"          :      -0.42496302 ,
+    "skyrmion_num"    :  null ,
+    "skyrmion_std"    :  null ,
+    "susceptibility"  :       0.05023096 ,
+    "specific_heat"   :       4.21380756
+}

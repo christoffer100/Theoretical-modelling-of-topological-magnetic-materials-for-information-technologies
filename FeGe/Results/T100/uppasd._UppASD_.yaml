@@ -1,0 +1,21 @@
+simid: _UppASD_
+date: 2025-11-26
+git_revision: 
+siminfo:
+    temperature:    100.00000         
+    timestep:       0.10000000E-15    
+    damping:        0.10000000        
+    nstep:          100000  
+    mode:           M-MC
+    alat:           0.47000000E-09    
+    sc_sep:         100     
+measurables:
+    averages:       Yes
+    trajectories:   No 
+    moments:        Yes
+    sqw:            No 
+    ams:            Yes
+    nc-ams:         No 
+    totenergy:      Yes
+    cumulants:      Yes
+    coord:          Yes
