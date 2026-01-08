@@ -1,0 +1,3 @@
+ This file indicates that the dmft part of RSPt is currently running,
+ or that is has terminated abnormally. You may want to check for this
+ file in your job submission script.
